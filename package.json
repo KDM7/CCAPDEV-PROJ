@@ -5,6 +5,9 @@
   "main": "app.js",
   "dependencies": {},
   "devDependencies": {},
+  "engines": {
+    "node": "12.16.1"
+    },
   "scripts": {
     "dev": "react-scripts start",
     "start": "serve -s build",
