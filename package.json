@@ -4,11 +4,15 @@
   "description": "",
   "main": "app.js",
   "dependencies": {
-    "serve": "^11.3.2",
-    "express": "*",
+    "bcrypt": "^5.0.1",
     "body-parser": "*",
+    "cookie-parser": "*",
+    "dotenv": "*",
+    "express": "*",
     "express-handlebars": "*",
-    "express-session": "*"
+    "express-session": "*",
+    "mongoose": "*",
+    "serve": "^11.3.2"
   },
   "engines": {
     "node": "12.16.1"
