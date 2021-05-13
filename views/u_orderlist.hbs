@@ -1,0 +1,29 @@
+{{>c_header}}
+<div class="container">
+                <div class="col-12">
+                    <div class="shadow">
+                        <br>
+                        <h1 class="list-group-item list-group-item-action bg-primary text-white">Orders</h1>
+                        <br>
+                        <table class="table table-bordered table-fixed">
+                            <thead>
+                              <tr>
+                                <th scope="col">Status</th>
+                                <th scope="col">OrderID</th>
+                                <th scope="col">Restaurant</th>
+                                <th scope="col">Date</th>
+                                <th scope="col">Price</th>
+                                <th scope="col"></th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              {{#each order}}
+                              {{>u_orderlist_row this}}
+                              {{/each}}
+                            </tbody>
+                          </table>
+                    </div>
+                </div>
+
+
+        </div>
