@@ -9,7 +9,7 @@ const mongoose = require('mongoose');
 require('dotenv').config();
 
 const app = express();
-// const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 // Making a session with a given key
 
@@ -65,6 +65,6 @@ const { text } = require('body-parser');
 app.use('/', indexRouter)
 
 // log this in console when ran
-// app.listen(PORT, () => {
-//     console.log(`Listening to localhost on port ${PORT}`);
-// });
+app.listen(PORT, () => {
+    console.log(`Listening to localhost on port ${PORT}`);
+});
