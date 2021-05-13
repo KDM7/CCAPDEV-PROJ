@@ -7,7 +7,8 @@
     "serve": "^11.3.2",
     "express": "*",
     "body-parser": "*",
-    "express-handlebars": "*"
+    "express-handlebars": "*",
+    "express-session": "*"
   },
   "engines": {
     "node": "12.16.1"
