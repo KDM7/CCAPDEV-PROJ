@@ -5,8 +5,8 @@
   "main": "app.js",
   "dependencies": {
     "serve": "^11.3.2",
-    "express":"*",
-    "body-parser":"*"
+    "express": "*",
+    "body-parser": "*"
   },
   "engines": {
     "node": "12.16.1"
