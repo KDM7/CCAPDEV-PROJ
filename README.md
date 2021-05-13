@@ -1,1 +1,3 @@
 # CCAPDEV-PROJ
+DBUSER: admin
+DBPASS: admin

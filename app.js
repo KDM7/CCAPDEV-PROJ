@@ -23,7 +23,7 @@ app.use(session({
 
 // Initialize the view
 app.use(express.static(__dirname + '/'));
-app.set('views', path.join(__dirname, 'views/'));
+app.set('views', path.join(__dirname, 'views'));
 app.engine('hbs', exphbs.create({
     extname: 'hbs',
     defaultLayout: 'main',
@@ -62,7 +62,7 @@ app.use(bodyParser.json());
 // ROUTERS
 const indexRouter = require('./router/indexRouter');
 const { text } = require('body-parser');
-app.use('/', indexRouter)
+app.use('/', indexRouter);
 
 // log this in console when ran
 app.listen(PORT, () => {
