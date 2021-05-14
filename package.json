@@ -1,5 +1,5 @@
 {
-  "name": "ccapdev-project",
+  "name": "ccapdev-proj",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -10,12 +10,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KDM7/CCAPDEV-PROJECT.git"
+    "url": "git+https://github.com/KDM7/CCAPDEV-PROJ.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KDM7/CCAPDEV-PROJECT/issues"
+    "url": "https://github.com/KDM7/CCAPDEV-PROJ/issues"
   },
-  "homepage": "https://github.com/KDM7/CCAPDEV-PROJECT#readme"
+  "homepage": "https://github.com/KDM7/CCAPDEV-PROJ#readme"
 }
