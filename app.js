@@ -15,7 +15,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cookieParser());
 app.use(session({
-    'secret': 'ITISDEV',
+    'secret': 'CCAPDEV',
     'name': "cookie",
     'resave': true,
     'saveUninitialized': true
@@ -23,7 +23,7 @@ app.use(session({
 
 // Initialize the view
 app.use(express.static(__dirname + '/'));
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views/'));
 app.engine('hbs', exphbs.create({
     extname: 'hbs',
     defaultLayout: 'main',

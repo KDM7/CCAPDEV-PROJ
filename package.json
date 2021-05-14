@@ -3,21 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "dependencies": {
-    "bcrypt": "^5.0.1",
-    "body-parser": "*",
-    "cookie-parser": "*",
-    "dotenv": "*",
-    "express": "*",
-    "express-handlebars": "*",
-    "express-session": "*",
-    "mongoose": "*",
-    "serve": "^11.3.2"
-  },
+  "dependencies": {},
+  "devDependencies": {},
   "engines": {
     "node": "12.16.1"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app.js"
